@@ -1,0 +1,12 @@
+<?php 
+/**
+* 
+*/
+class Traveller_model extends MY_Model
+{
+	
+	function __construct()
+	{
+		parent::__construct("traveller");
+	}
+}
